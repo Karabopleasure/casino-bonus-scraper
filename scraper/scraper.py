@@ -7,7 +7,7 @@ Run from the project root:
     python scraper/scraper.py
 
 Output:
-    data/bonuses.json
+    docs/bonuses.json
 
 """
 
@@ -31,7 +31,7 @@ SOURCE_URL = (
 CASINOS = ["Hollywoodbets", "Supabets", "PlayaBets"]
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-OUTPUT_FILE = PROJECT_ROOT / "data" / "bonuses.json"
+OUTPUT_FILE = PROJECT_ROOT / "docs" / "bonuses.json"
 
 USER_AGENT = "casino-bonus-screening-scraper/1.0"
 REQUEST_DELAY_SECONDS = 2

@@ -1,7 +1,7 @@
 
 "use strict";
 
-const DATA_URL = "../data/bonuses.json";
+const DATA_URL = "bonuses.json";
 
 const tableBody = document.getElementById("bonus-table");
 const statusText = document.getElementById("status");
