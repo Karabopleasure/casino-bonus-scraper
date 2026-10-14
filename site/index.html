@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare welcome bonuses, wagering requirements and minimum deposits from a public source.">
+  <title>Casino Bonus Comparison</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">BONUS RESEARCH PROJECT</p>
+      <h1>Casino Welcome Bonus Comparison</h1>
+      <p class="subtitle">
+        Compare welcome offers, wagering terms and minimum deposits
+        from one public comparison source.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="notice">
+      <strong>Important:</strong> Bonus terms can change. Check the
+      original source and the casino's own terms before relying on an offer.
+      This page is for comparison and research, not a recommendation to gamble.
+    </section>
+
+    <section class="results">
+      <div class="section-heading">
+        <div>
+          <h2>Welcome bonuses</h2>
+          <p id="status">Loading bonus data...</p>
+        </div>
+        <span class="count" id="count">0 casinos</span>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Casino</th>
+              <th>Welcome bonus</th>
+              <th>Wagering requirement</th>
+              <th>Minimum deposit</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="bonus-table">
+            <tr>
+              <td colspan="5">Loading data...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="updated" id="updated"></p>
+    </section>
+
+    <footer>
+      <p>Data extracted from a public comparison page. Terms are reproduced
+      for informational purposes and may not reflect current offers.</p>
+    </footer>
+  </main>
+</body>
+</html>

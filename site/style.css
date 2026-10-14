@@ -1,0 +1,174 @@
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background: #f4f7fb;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 48px 0 42px;
+  background: #183b70;
+  color: #fff;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  color: #cbdcf7;
+}
+
+h1 {
+  max-width: 760px;
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  line-height: 1.15;
+}
+
+.subtitle {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: #e1eaf8;
+}
+
+.notice {
+  margin: 28px 0;
+  padding: 16px 18px;
+  border-left: 4px solid #c38b25;
+  border-radius: 6px;
+  background: #fff8e8;
+  font-size: 0.94rem;
+}
+
+.results {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+  box-shadow: 0 5px 22px rgb(15 23 42 / 5%);
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.section-heading p {
+  margin: 4px 0 0;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.count {
+  padding: 5px 11px;
+  border-radius: 20px;
+  background: #eaf1fc;
+  color: #183b70;
+  white-space: nowrap;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 15px 14px;
+  border-bottom: 1px solid #e8edf4;
+  vertical-align: top;
+}
+
+th {
+  background: #f1f5fa;
+  color: #334155;
+  font-size: 0.82rem;
+}
+
+td {
+  font-size: 0.92rem;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+tbody tr:hover {
+  background: #f8faff;
+}
+
+.source-link {
+  color: #1d4ed8;
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.updated {
+  margin: 16px 0 0;
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+footer {
+  padding: 24px 0 36px;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 650px) {
+  .hero {
+    padding: 34px 0;
+  }
+
+  .results {
+    padding: 16px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  th,
+  td {
+    padding: 12px 10px;
+  }
+
+  table {
+    min-width: 650px;
+  }
+}
